@@ -1,0 +1,141 @@
+html,body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+.banner{
+    width: 336px;
+    height: 280px;
+    background-image:url(Capture2.JPG);
+    background-size: cover;
+    background-position: center-left;
+}
+
+.col1{
+    columns: 2;
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #9a9aac;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.head1{
+    font-size: 20px;
+    font-family: poppins;
+    margin-bottom: -55px;
+}
+
+.mail{
+    font-size: 13px;
+    padding-top: 16px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-bottom: -30vh;
+}
+
+
+
+.col2{
+    columns: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+    column-width: 80px;
+}
+
+
+.head2{
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-size: 38px;
+}
+
+.p1{
+    padding-top:25px;
+    font-size: 13px;
+    margin-left: 14px;
+    font-family: Arial,  sans-serif;
+}
+
+.btn{
+    color: #fff;
+    background-color: red;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-left: 12px;
+}
+.btn:hover{
+    background-color: #000000;
+}
+
+
+.icon{
+    margin-left: 12px;
+}
+
+.fa-brands{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 30px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+.waviy {
+    position: relative;
+    letter-spacing: -2.5px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+
+
+  
